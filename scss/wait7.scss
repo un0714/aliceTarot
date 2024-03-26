@@ -1,0 +1,113 @@
+@charset 'utf-8';
+@import './reset.scss';
+
+.section {
+  position: relative;
+  height: 100vh;
+  min-height: 100vh;
+  width: 100%;
+  background: url('../images/result_detailView_bg.jpg') no-repeat 50% 50%;
+  background-size: cover;
+  .backBtn {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    width: 40px;
+    height: 40px;
+    &_img {
+      width: 25px;
+    }
+  }
+  &.wait {
+    width: 100%;
+    .textWrap {
+      height: 240px;
+      margin: 0 auto;
+      padding: 90px 0 20px;
+      text-align: left;
+      width: calc(100vw - 60px);
+      &_title {
+        margin-bottom: 20px;
+        font-weight: 400;
+        font-size: 1.75em; /* 28px */
+      }
+      &_subTitle {
+        word-break: keep-all;
+        font-weight: 400;
+        font-size: 1.125em; /* 18px */
+      }
+    }
+    .fixedCon {
+      position: relative;
+      margin: 0 auto;
+      height: calc(100vh - 240px);
+      &_center {
+        height: 100%;
+        min-height: calc(100vh - 240px);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        padding: 2em 0;
+        overflow-y: auto;
+        overflow-x: hidden;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        .resultCard {
+          height: 380px;
+          text-align: center;
+          &_img {
+            width: calc(100vw - 430px);
+            &.taro01 {
+              position: relative;
+              left: 40px;
+            }
+            &.taro02 {
+              position: relative;
+              right: -50px;
+            }
+            &.taro03 {
+              z-index: -1;
+              position: relative;
+              top: 85px;
+              left: 5px;
+            }
+            &.taro04 {
+              z-index: -1;
+              position: relative;
+              top: -55px;
+              left: -5px;
+            }
+            &.taro05 {
+              z-index: -1;
+              position: relative;
+              top: -55px;
+            }
+            &.taro06 {
+              z-index: -2;
+              position: relative;
+              top: 32px;
+              left: -40px;
+            }
+            &.taro07 {
+              z-index: -2;
+              position: relative;
+              top: -107px;
+              left: -50px;
+            }
+          }
+        }
+        .viewBtn {
+          display: block;
+          margin: 0 auto;
+          color: #fff;
+          width: 18em;
+          height: 3em;
+          font-size: 1.125em; /* 20px */
+          border: 1px solid #ededed;
+          border-radius: 30px;
+        }
+      }
+    }
+  }
+}

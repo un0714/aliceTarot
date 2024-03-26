@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			id="viewport"
+			content="width=512, user-scalable=no, minimal-ui, target-densitydpi=device-dpi"
+		/>
+		<link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+		<link rel="stylesheet" href="./css/main.min.css" />
+		<script defer src="./js/swiper-bundle.min.js"></script>
+		<script defer src="./js/main.js"></script>
+		<title>앨리스타로 | 메인페이지</title>
+	</head>
+	<body>
+		<header id="header" class="header">
+			<div class="navWrap">
+				<nav class="nav">
+					<ul class="nav_listWrap">
+						<li class="nav_listWrap">
+							<img
+								src="./images/slidemenu_topimg.jpg"
+								alt="앨리스타로 이미지"
+								class="aliceBanner"
+							/>
+						</li>
+						<!-- <li class="nav_listWrap_list"><a href="#" class="link">앨리스타로 목록</a></li> -->
+						<!-- <li class="nav_listWrap_list"><a href="#" class="link">저장타로 결과 목록</a></li> -->
+						<li class="nav_listWrap_list btnList">
+							BGM<input
+								type="button"
+								id="bgmBtn"
+								class="btn"
+								onclick="javascript:bgmToggle();play();"
+								value="ON"
+							/>
+							<audio src="./audio/bgm.ogg" id="audio_play"></audio>
+						</li>
+						<!-- <li class="nav_listWrap_list btnList dpNone">푸시알림<input type="button" id="pushBtn" class="btn" onclick="pushToggle()" value="ON" /></li> -->
+						<li class="nav_listWrap_list">
+							<a
+								href="http://www.elicetarot.com/terms.html"
+								target="_blank"
+								class="link"
+								>이용약관</a
+							>
+						</li>
+						<li class="nav_listWrap_list">
+							<a
+								href="http://www.elicetarot.com/terms.html"
+								target="_blank"
+								class="link"
+								>개인정보처리방침</a
+							>
+						</li>
+						<li class="nav_listWrap_list">버전안내 1.0.6</li>
+						<!-- <li class="nav_listWrap_list"><a href="#" class="link">회원탈퇴</a></li> -->
+					</ul>
+					<span class="copy">© 2021 ONOFF-lab. All right reserved.</span>
+				</nav>
+			</div>
+			<div class="navIcon">
+				<a href="#nav_open" title="메뉴열기" class="navIcon_lineWrap">
+					<span class="line line01"></span>
+					<span class="line line02"></span>
+					<span class="line line03"></span>
+				</a>
+			</div>
+			<div class="navBg"></div>
+			<div class="header_logo">
+				<img
+					src="./images/main_top_logo.png"
+					alt="앨리스타로 로고 이미지"
+					class="header_logo_img"
+				/>
+			</div>
+		</header>
+		<div id="container" class="container">
+			<section class="section main01">
+				<h1 class="section_title"># 오늘은 어떨까? 매일이 궁금하다면?</h1>
+				<div class="swiper mainTopSlider">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide mainSlider slide01">
+							<a href="./sub/cardSelect.html?id=1" class="taroLink">
+								<img
+									src="./images/tarotType_01.png"
+									alt="오늘 하루는 어떨까요?"
+									class="taroImg taro01"
+								/>
+							</a>
+						</div>
+						<div class="swiper-slide mainSlider slide02">
+							<a href="./sub/cardSelect.html?id=2" class="taroLink">
+								<img
+									src="./images/tarotType_02.png"
+									alt="이번 한주는 어떨까요?"
+									class="taroImg taro02"
+								/>
+							</a>
+						</div>
+						<div class="swiper-slide mainSlider slide03">
+							<a href="./sub/cardSelect.html?id=3" class="taroLink">
+								<img
+									src="./images/tarotType_03.png"
+									alt="이번 한달은 어떨까요?"
+									class="taroImg taro03"
+								/>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="section main02">
+				<h1 class="section_title">
+					# 두근두근 기대가 되는 삶 # 답답한 일이 있다면
+				</h1>
+				<div class="swiper mainMidSlider">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide mainSlider slide04">
+							<a href="./sub/cardSelect.html?id=4" class="taroLink">
+								<img
+									src="./images/tarotType_04.png"
+									alt="두근두근 사랑,오늘 나의 애정은?"
+									class="taroImg taro04"
+								/>
+							</a>
+						</div>
+						<div class="swiper-slide mainSlider slide05">
+							<a href="./sub/cardSelect.html?id=5" class="taroLink">
+								<img
+									src="./images/tarotType_05.png"
+									alt="현재 썸?쌈?! 그 사람과 나는 어떤 사이일까?"
+									class="taroImg taro05"
+								/>
+							</a>
+						</div>
+						<div class="swiper-slide mainSlider slide06">
+							<a href="./sub/cardSelect.html?id=6" class="taroLink">
+								<img
+									src="./images/tarotType_06.png"
+									alt="내 애인의 속마음이 궁금하다!그것이 알고 싶다"
+									class="taroImg taro06"
+								/>
+							</a>
+						</div>
+						<div class="swiper-slide mainSlider slide07">
+							<a href="./sub/cardSelect.html?id=7" class="taroLink">
+								<img
+									src="./images/tarotType_07.png"
+									alt="지금은 솔로,다가올 사랑이 온다면 어떤 연애를 할까?"
+									class="taroImg taro07"
+								/>
+							</a>
+						</div>
+						<div class="swiper-slide mainSlider slide08">
+							<a href="./sub/cardSelect.html?id=8" class="taroLink">
+								<img
+									src="./images/tarotType_08.png"
+									alt="미안...우린 여기까지인가봐"
+									class="taroImg taro08"
+								/>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="section main03">
+				<h1 class="section_title"># 우리 같이 고민해요 # 앨리스 고민상담소</h1>
+				<div class="swiper mainBottomSlider">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide mainSlider slide09">
+							<a href="./sub/cardSelect.html?id=9" class="taroLink">
+								<img
+									src="./images/tarotType_09.png"
+									alt="나의 금전운을 알 수 있을까?"
+									class="taroImg taro09"
+								/>
+							</a>
+						</div>
+						<div class="swiper-slide mainSlider slide10">
+							<a href="./sub/cardSelect.html?id=10" class="taroLink">
+								<img
+									src="./images/tarotType_010.png"
+									alt="원하는 직장에 취업 가능할까?"
+									class="taroImg taro10"
+								/>
+							</a>
+						</div>
+						<div class="swiper-slide mainSlider slide11">
+							<a href="./sub/cardSelect.html?id=11" class="taroLink">
+								<img
+									src="./images/tarotType_011.png"
+									alt="상대방의 마음을 볼 수 있다면?"
+									class="taroImg taro11"
+								/>
+							</a>
+						</div>
+						<div class="swiper-slide mainSlider slide12">
+							<a href="./sub/cardSelect.html?id=12" class="taroLink">
+								<img
+									src="./images/tarotType_012.png"
+									alt="나에게 운명같은 사랑이 올까?"
+									class="taroImg taro12"
+								/>
+							</a>
+						</div>
+						<div class="swiper-slide mainSlider slide13">
+							<a href="./sub/cardSelect.html?id=13" class="taroLink">
+								<img
+									src="./images/tarotType_013.png"
+									alt="우리 헤어져?말아?"
+									class="taroImg taro13"
+								/>
+							</a>
+						</div>
+						<div class="swiper-slide mainSlider slide14">
+							<a href="./sub/cardSelect.html?id=14" class="taroLink">
+								<img
+									src="./images/tarotType_014.png"
+									alt="어떻게 살아가야 하는 것인가?"
+									class="taroImg taro14"
+								/>
+							</a>
+						</div>
+						<div class="swiper-slide mainSlider slide15">
+							<a href="./sub/cardSelect.html?id=15" class="taroLink">
+								<img
+									src="./images/tarotType_015.png"
+									alt="나는 과연 누구인가?"
+									class="taroImg taro15"
+								/>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</body>
+</html>

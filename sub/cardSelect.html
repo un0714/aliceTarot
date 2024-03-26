@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" id="viewport" content="width=512, user-scalable=no, minimal-ui, target-densitydpi=device-dpi" />
+    <link rel="stylesheet" href="../css/cardSelect.min.css" />
+    <script defer src="../js/cardSelect.js"></script>
+    <title>앨리스타로 | 오늘하루는 어떨까요?</title>
+  </head>
+  <body>
+    <section id="cardSelect" class="section cardSelect">
+      <button class="backBtn" onclick="indexBtn()">
+        <img src="../images/back_bu.png" alt="뒤로가기 버튼" class="backBtn_img" />
+      </button>
+      <div class="textWrap">
+        <h1 class="textWrap_title">오늘 하루는 어떨까요?</h1>
+        <p class="textWrap_text">당신은 &#39;<span class="spanText">나의 하루</span>&#39;라는 카드주제를 선택했습니다.</p>
+        <p class="textWrap_text">신중하게 <span class="spanNum">1장</span>의 카드를 선택해주세요</p>
+      </div>
+      <div id="cardWrap">
+        <div id="boxCard"></div>
+        <button type="button" id="button" class="shuffle">셔플</button>
+      </div>
+    </section>
+  </body>
+</html>

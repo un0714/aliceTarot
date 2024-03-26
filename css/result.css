@@ -1,0 +1,233 @@
+@charset "UTF-8";
+/* noto-serif-kr-300 - latin_korean */
+@font-face {
+  font-family: "Noto Serif KR";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../font/noto-serif-kr-v17-latin_korean-300.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../font/noto-serif-kr-v17-latin_korean-300.eot?#iefix") format("embedded-opentype"), url("../font/noto-serif-kr-v17-latin_korean-300.woff2") format("woff2"), url("../font/noto-serif-kr-v17-latin_korean-300.woff") format("woff"), url("../font/noto-serif-kr-v17-latin_korean-300.ttf") format("truetype"), url("../font/noto-serif-kr-v17-latin_korean-300.svg#NotoSerifKR") format("svg"); /* Legacy iOS */
+}
+/* noto-serif-kr-regular - latin_korean */
+@font-face {
+  font-family: "Noto Serif KR";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../font/noto-serif-kr-v17-latin_korean-regular.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../font/noto-serif-kr-v17-latin_korean-regular.eot?#iefix") format("embedded-opentype"), url("../font/noto-serif-kr-v17-latin_korean-regular.woff2") format("woff2"), url("../font/noto-serif-kr-v17-latin_korean-regular.woff") format("woff"), url("../font/noto-serif-kr-v17-latin_korean-regular.ttf") format("truetype"), url("../font/noto-serif-kr-v17-latin_korean-regular.svg#NotoSerifKR") format("svg"); /* Legacy iOS */
+}
+/* noto-serif-kr-500 - latin_korean */
+@font-face {
+  font-family: "Noto Serif KR";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../font/noto-serif-kr-v17-latin_korean-500.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../font/noto-serif-kr-v17-latin_korean-500.eot?#iefix") format("embedded-opentype"), url("../font/noto-serif-kr-v17-latin_korean-500.woff2") format("woff2"), url("../font/noto-serif-kr-v17-latin_korean-500.woff") format("woff"), url("../font/noto-serif-kr-v17-latin_korean-500.ttf") format("truetype"), url("../font/noto-serif-kr-v17-latin_korean-500.svg#NotoSerifKR") format("svg"); /* Legacy iOS */
+}
+/* noto-serif-kr-700 - latin_korean */
+@font-face {
+  font-family: "Noto Serif KR";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../font/noto-serif-kr-v17-latin_korean-700.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../font/noto-serif-kr-v17-latin_korean-700.eot?#iefix") format("embedded-opentype"), url("../font/noto-serif-kr-v17-latin_korean-700.woff2") format("woff2"), url("../font/noto-serif-kr-v17-latin_korean-700.woff") format("woff"), url("../font/noto-serif-kr-v17-latin_korean-700.ttf") format("truetype"), url("../font/noto-serif-kr-v17-latin_korean-700.svg#NotoSerifKR") format("svg"); /* Legacy iOS */
+}
+/* noto-serif-kr-600 - latin_korean */
+@font-face {
+  font-family: "Noto Serif KR";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../font/noto-serif-kr-v17-latin_korean-600.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../font/noto-serif-kr-v17-latin_korean-600.eot?#iefix") format("embedded-opentype"), url("../font/noto-serif-kr-v17-latin_korean-600.woff2") format("woff2"), url("../font/noto-serif-kr-v17-latin_korean-600.woff") format("woff"), url("../font/noto-serif-kr-v17-latin_korean-600.ttf") format("truetype"), url("../font/noto-serif-kr-v17-latin_korean-600.svg#NotoSerifKR") format("svg"); /* Legacy iOS */
+}
+/* noto-sans-kr-300 - latin_korean */
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../font/noto-sans-kr-v25-latin_korean-300.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../font/noto-sans-kr-v25-latin_korean-300.eot?#iefix") format("embedded-opentype"), url("../font/noto-sans-kr-v25-latin_korean-300.woff2") format("woff2"), url("../font/noto-sans-kr-v25-latin_korean-300.woff") format("woff"), url("../font/noto-sans-kr-v25-latin_korean-300.ttf") format("truetype"), url("../font/noto-sans-kr-v25-latin_korean-300.svg#NotoSansKR") format("svg"); /* Legacy iOS */
+}
+/* noto-sans-kr-regular - latin_korean */
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../font/noto-sans-kr-v25-latin_korean-regular.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../font/noto-sans-kr-v25-latin_korean-regular.eot?#iefix") format("embedded-opentype"), url("../font/noto-sans-kr-v25-latin_korean-regular.woff2") format("woff2"), url("../font/noto-sans-kr-v25-latin_korean-regular.woff") format("woff"), url("../font/noto-sans-kr-v25-latin_korean-regular.ttf") format("truetype"), url("../font/noto-sans-kr-v25-latin_korean-regular.svg#NotoSansKR") format("svg"); /* Legacy iOS */
+}
+/* noto-sans-kr-700 - latin_korean */
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../font/noto-sans-kr-v25-latin_korean-700.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../font/noto-sans-kr-v25-latin_korean-700.eot?#iefix") format("embedded-opentype"), url("../font/noto-sans-kr-v25-latin_korean-700.woff2") format("woff2"), url("../font/noto-sans-kr-v25-latin_korean-700.woff") format("woff"), url("../font/noto-sans-kr-v25-latin_korean-700.ttf") format("truetype"), url("../font/noto-sans-kr-v25-latin_korean-700.svg#NotoSansKR") format("svg"); /* Legacy iOS */
+}
+/* noto-sans-kr-500 - latin_korean */
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../font/noto-sans-kr-v25-latin_korean-500.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../font/noto-sans-kr-v25-latin_korean-500.eot?#iefix") format("embedded-opentype"), url("../font/noto-sans-kr-v25-latin_korean-500.woff2") format("woff2"), url("../font/noto-sans-kr-v25-latin_korean-500.woff") format("woff"), url("../font/noto-sans-kr-v25-latin_korean-500.ttf") format("truetype"), url("../font/noto-sans-kr-v25-latin_korean-500.svg#NotoSansKR") format("svg"); /* Legacy iOS */
+}
+body {
+  font: 16px/1.6 "Noto Serif KR", Malgun Gothic, "맑은 고딕", sans-serif;
+  color: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+input,
+textarea,
+select {
+  border-radius: 0;
+}
+
+fieldset {
+  border: none;
+}
+
+legend,
+caption {
+  position: absolute;
+  left: -9999px;
+}
+
+button {
+  background: transparent;
+  border: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: middle;
+  border: none;
+}
+
+img,
+video {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+}
+
+address,
+em,
+i {
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sr-only {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0, 0, 0, 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  margin: -1px !important;
+}
+
+.hidden-scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hidden-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.section {
+  position: relative;
+}
+.section.result {
+  width: 100%;
+  height: 100vh;
+  background: url("../images/result_SelectdetailView_bg.jpg") no-repeat 100% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+.section.result .closeBtn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+}
+.section.result .closeBtn_img {
+  width: 30px;
+  height: 30px;
+}
+.section.result .result_wrap {
+  width: 90%;
+  margin: 100px auto 50px;
+}
+.section.result .result_wrap .title {
+  font-size: 2em; /* 32px */
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+.section.result .result_wrap .text {
+  word-break: break-all;
+  line-height: 1.4;
+  font-size: 1.25em; /* 20px */
+  margin-bottom: 20px;
+  font-family: sans-serif;
+}
+.section.result .result_wrap .mb {
+  margin-bottom: 50px;
+}
+.section.result .result_wrap .subTitle {
+  font-weight: 400;
+  line-height: 1;
+  font-size: 2em; /* 32px */
+  margin-bottom: 20px;
+}
+.section.result .result_wrap .imgWrap {
+  padding-top: 20px;
+  text-align: center;
+}
+.section.result .result_wrap .imgWrap .link {
+  width: 100%;
+  height: 100%;
+}
+.section.result .result_wrap .imgWrap_img {
+  width: 30%;
+  padding-bottom: 20px;
+}
+.section.result .result_wrap .imgWrap .cardName {
+  font-size: 1.25em;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" id="viewport" content="width=512, user-scalable=no, minimal-ui, target-densitydpi=device-dpi" />
+    <link rel="stylesheet" href="../css/loading.min.css" />
+    <script language="JavaScript">
+      function next() {
+        location = 'wait.html';
+      }
+    </script>
+    <title>앨리스타로 | 로딩창</title>
+  </head>
+  <body onLoad="setTimeout('next()', 3000)">
+    <section id="load" class="section load">
+      <div class="center">
+        <div class="center_textWrap">
+          <p class="center_textWrap_text">
+            선택하신 타로 카드의 결과를<br />
+            풀이하고 있습니다.
+          </p>
+          <p class="center_textWrap_text">잠시 기다려주세요.</p>
+        </div>
+        <div class="scene">
+          <div class="card">
+            <div class="card_front">
+              <img src="../images/loading_card_1.png" alt="로딩카드 앞면" class="card_img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

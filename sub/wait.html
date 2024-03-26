@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" id="viewport" content="width=512, user-scalable=no, minimal-ui, target-densitydpi=device-dpi" />
+    <link rel="stylesheet" href="../css/wait.min.css" />
+    <script defer src="../js/wait.js"></script>
+    <title>앨리스타로 | 결과대기창</title>
+  </head>
+  <body>
+    <section id="wait" class="section wait">
+      <button class="backBtn" onclick="indexBtn()">
+        <img src="../images/back_bu.png" alt="뒤로가기 버튼" class="backBtn_img" />
+      </button>
+      <div class="textWrap">
+        <h2 class="textWrap_title">선택한 카드 결과가 나왔습니다.</h2>
+        <p class="textWrap_subTitle">아래의 버튼을 누른 후 <span>나의 하루</span> 결과내용을 확인해보세요.</p>
+      </div>
+      <div class="fixedCon">
+        <div class="fixedCon_center hidden-scroll">
+          <div class="resultCard">
+            <img src="../images/1.png" alt="내가 뽑은 카드 결과" class="resultCard_img front" />
+          </div>
+          <button type="button" class="viewBtn" onclick="resultPage()">타로결과보기</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

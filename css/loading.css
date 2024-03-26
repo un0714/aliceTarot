@@ -1,0 +1,260 @@
+@charset "UTF-8";
+/* noto-serif-kr-300 - latin_korean */
+@font-face {
+  font-family: "Noto Serif KR";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../font/noto-serif-kr-v17-latin_korean-300.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../font/noto-serif-kr-v17-latin_korean-300.eot?#iefix") format("embedded-opentype"), url("../font/noto-serif-kr-v17-latin_korean-300.woff2") format("woff2"), url("../font/noto-serif-kr-v17-latin_korean-300.woff") format("woff"), url("../font/noto-serif-kr-v17-latin_korean-300.ttf") format("truetype"), url("../font/noto-serif-kr-v17-latin_korean-300.svg#NotoSerifKR") format("svg"); /* Legacy iOS */
+}
+/* noto-serif-kr-regular - latin_korean */
+@font-face {
+  font-family: "Noto Serif KR";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../font/noto-serif-kr-v17-latin_korean-regular.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../font/noto-serif-kr-v17-latin_korean-regular.eot?#iefix") format("embedded-opentype"), url("../font/noto-serif-kr-v17-latin_korean-regular.woff2") format("woff2"), url("../font/noto-serif-kr-v17-latin_korean-regular.woff") format("woff"), url("../font/noto-serif-kr-v17-latin_korean-regular.ttf") format("truetype"), url("../font/noto-serif-kr-v17-latin_korean-regular.svg#NotoSerifKR") format("svg"); /* Legacy iOS */
+}
+/* noto-serif-kr-500 - latin_korean */
+@font-face {
+  font-family: "Noto Serif KR";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../font/noto-serif-kr-v17-latin_korean-500.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../font/noto-serif-kr-v17-latin_korean-500.eot?#iefix") format("embedded-opentype"), url("../font/noto-serif-kr-v17-latin_korean-500.woff2") format("woff2"), url("../font/noto-serif-kr-v17-latin_korean-500.woff") format("woff"), url("../font/noto-serif-kr-v17-latin_korean-500.ttf") format("truetype"), url("../font/noto-serif-kr-v17-latin_korean-500.svg#NotoSerifKR") format("svg"); /* Legacy iOS */
+}
+/* noto-serif-kr-700 - latin_korean */
+@font-face {
+  font-family: "Noto Serif KR";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../font/noto-serif-kr-v17-latin_korean-700.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../font/noto-serif-kr-v17-latin_korean-700.eot?#iefix") format("embedded-opentype"), url("../font/noto-serif-kr-v17-latin_korean-700.woff2") format("woff2"), url("../font/noto-serif-kr-v17-latin_korean-700.woff") format("woff"), url("../font/noto-serif-kr-v17-latin_korean-700.ttf") format("truetype"), url("../font/noto-serif-kr-v17-latin_korean-700.svg#NotoSerifKR") format("svg"); /* Legacy iOS */
+}
+/* noto-serif-kr-600 - latin_korean */
+@font-face {
+  font-family: "Noto Serif KR";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../font/noto-serif-kr-v17-latin_korean-600.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../font/noto-serif-kr-v17-latin_korean-600.eot?#iefix") format("embedded-opentype"), url("../font/noto-serif-kr-v17-latin_korean-600.woff2") format("woff2"), url("../font/noto-serif-kr-v17-latin_korean-600.woff") format("woff"), url("../font/noto-serif-kr-v17-latin_korean-600.ttf") format("truetype"), url("../font/noto-serif-kr-v17-latin_korean-600.svg#NotoSerifKR") format("svg"); /* Legacy iOS */
+}
+/* noto-sans-kr-300 - latin_korean */
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../font/noto-sans-kr-v25-latin_korean-300.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../font/noto-sans-kr-v25-latin_korean-300.eot?#iefix") format("embedded-opentype"), url("../font/noto-sans-kr-v25-latin_korean-300.woff2") format("woff2"), url("../font/noto-sans-kr-v25-latin_korean-300.woff") format("woff"), url("../font/noto-sans-kr-v25-latin_korean-300.ttf") format("truetype"), url("../font/noto-sans-kr-v25-latin_korean-300.svg#NotoSansKR") format("svg"); /* Legacy iOS */
+}
+/* noto-sans-kr-regular - latin_korean */
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../font/noto-sans-kr-v25-latin_korean-regular.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../font/noto-sans-kr-v25-latin_korean-regular.eot?#iefix") format("embedded-opentype"), url("../font/noto-sans-kr-v25-latin_korean-regular.woff2") format("woff2"), url("../font/noto-sans-kr-v25-latin_korean-regular.woff") format("woff"), url("../font/noto-sans-kr-v25-latin_korean-regular.ttf") format("truetype"), url("../font/noto-sans-kr-v25-latin_korean-regular.svg#NotoSansKR") format("svg"); /* Legacy iOS */
+}
+/* noto-sans-kr-700 - latin_korean */
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../font/noto-sans-kr-v25-latin_korean-700.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../font/noto-sans-kr-v25-latin_korean-700.eot?#iefix") format("embedded-opentype"), url("../font/noto-sans-kr-v25-latin_korean-700.woff2") format("woff2"), url("../font/noto-sans-kr-v25-latin_korean-700.woff") format("woff"), url("../font/noto-sans-kr-v25-latin_korean-700.ttf") format("truetype"), url("../font/noto-sans-kr-v25-latin_korean-700.svg#NotoSansKR") format("svg"); /* Legacy iOS */
+}
+/* noto-sans-kr-500 - latin_korean */
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../font/noto-sans-kr-v25-latin_korean-500.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../font/noto-sans-kr-v25-latin_korean-500.eot?#iefix") format("embedded-opentype"), url("../font/noto-sans-kr-v25-latin_korean-500.woff2") format("woff2"), url("../font/noto-sans-kr-v25-latin_korean-500.woff") format("woff"), url("../font/noto-sans-kr-v25-latin_korean-500.ttf") format("truetype"), url("../font/noto-sans-kr-v25-latin_korean-500.svg#NotoSansKR") format("svg"); /* Legacy iOS */
+}
+body {
+  font: 16px/1.6 "Noto Serif KR", Malgun Gothic, "맑은 고딕", sans-serif;
+  color: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+input,
+textarea,
+select {
+  border-radius: 0;
+}
+
+fieldset {
+  border: none;
+}
+
+legend,
+caption {
+  position: absolute;
+  left: -9999px;
+}
+
+button {
+  background: transparent;
+  border: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: middle;
+  border: none;
+}
+
+img,
+video {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+}
+
+address,
+em,
+i {
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sr-only {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0, 0, 0, 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  margin: -1px !important;
+}
+
+.hidden-scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hidden-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.section {
+  height: 100vh;
+  min-height: 100vh;
+  background: url("../images/loading_bg.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+.section.load {
+  position: relative;
+}
+.section.load .center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-55%);
+  transform: translateX(-50%) translateY(-55%);
+}
+.section.load .center_textWrap {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.section.load .center_textWrap_text {
+  font-size: 1.25em;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+.section.load .center .scene {
+  perspective: 600px;
+  -webkit-perspective: 600px;
+  -ms-perspective: 600px;
+  -moz-perspective: 600px;
+  -o-perspective: 600px;
+  margin: 0 auto;
+  width: 170px;
+  height: 291px;
+}
+.section.load .center .scene .card {
+  transform-style: preserve-3d;
+  -webkit-animation: flipY 2s infinite;
+  animation: flipY 2s infinite;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  -webkit-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  position: relative;
+  height: 100%;
+}
+.section.load .center .scene .card_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+/* Flip Animation */
+@-webkit-keyframes flipY {
+  from {
+    -webkit-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+  }
+  to {
+    -webkit-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+  }
+}
+@keyframes flipY {
+  from {
+    -webkit-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+  }
+  to {
+    -webkit-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+  }
+}
